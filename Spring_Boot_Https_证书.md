@@ -38,8 +38,8 @@ keyUsage = nonRepudiation, digitalSignature, keyEncipherment
 subjectAltName = @alt_names
 
 [ alt_names ]
-DNS.1 = 192.168.0.110
-DNS.2 = 192.168.0.111
+DNS.1 = app-manager.zhichongjia.com
+DNS.2 = 47.112.103.189
 # section for the "default_ca" option
 [ca]
 default_ca=my_ca_default

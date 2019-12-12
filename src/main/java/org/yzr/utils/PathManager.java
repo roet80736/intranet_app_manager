@@ -57,6 +57,7 @@ public class PathManager {
 
             //解决重复读配置文件
             if (isHttps) {
+                baseURL = protocol + "://" + domain + portString + "/";
                 httpsBaseURL = baseURL;
             } else {
                 httpBaseURL = baseURL;
